@@ -11,7 +11,7 @@ public class Topic7_HA_IfElseIFCont {
         } else if (x == 20){
             System.out.println("x is equal to 20");
         } else if (x == 50){
-            System.out.println("x is equal to 20");
+            System.out.println("x is equal to 50");
         }else {
             System.out.println("x is something else");
         }

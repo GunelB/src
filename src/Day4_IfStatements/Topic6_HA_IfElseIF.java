@@ -13,7 +13,7 @@ public class Topic6_HA_IfElseIF {
          */
         // a number can be positive, negative or equal to 0
 
-        int Number = 50;
+        int Number = 10;
         if (Number > 0){
             System.out.println("it is positive");
         } else if(Number < 0){
