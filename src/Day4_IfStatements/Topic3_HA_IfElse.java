@@ -3,7 +3,6 @@ package Day4_IfStatements;
 public class Topic3_HA_IfElse {
     public static void main(String[] args) {
 
-
         /*
         if (condition){
             if your condition is true execute this code block
