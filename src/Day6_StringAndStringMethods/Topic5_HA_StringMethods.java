@@ -52,6 +52,53 @@ trim()	              Removes whitespace from both ends of a string	             
         boolean IsItContainsJ = s5.contains("K");
         System.out.println(IsItContainsJ);
 
+//endsWith()	          Checks whether a string ends with the specified character(s)	    boolean
+        String s6 = "I'm a lazy person1";
+        boolean IsItEndsWithSon = s6.endsWith("rson1");
+        System.out.println("IsItEndsWithSon = " + IsItEndsWithSon);
 
+//startsWith()	      Checks whether a string starts with specified characters	        boolean
+
+        boolean IsItStartingWithI = s6.startsWith("I'm a lazy");
+        System.out.println("IsItStartingWithI = " + IsItStartingWithI);
+
+//equals()	          Compares two strings. Returns true if the strings are equal,
+//                      and false if not	                                                boolean
+
+        String cat1 = "cat";
+        String cat2 = new String("cat");
+
+        System.out.println(cat1 == cat2);
+        System.out.println(cat1.equals(cat2));
+
+//equalsIgnoreCase()	  Compares two strings, ignoring case considerations	            boolean
+        System.out.println(cat1.equalsIgnoreCase(cat2));
+
+//indexOf()	          Returns the position of the first found occurrence
+//                      of specified characters in a string	                            int
+
+        String City = "Toronto-Ontario Canada";
+                     //0123456789
+        //Name;Surname;Age-City+
+        //Hayri
+        //Rebecca
+
+        System.out.println(City.indexOf("on"));
+        int position = City.indexOf(" ");
+        System.out.println("position = " + position);
+        
+
+//isEmpty()	          Checks whether a string is empty or not	                        boolean
+        
+        String e = "";
+        boolean IsItEmpty = e.isEmpty();
+        System.out.println("IsItEmpty = " + IsItEmpty);
+
+//lastIndexOf()	      Returns the position of the last found occurrence of
+//                      specified characters in a string	                                int
+
+        String Country = "United States of America";
+        System.out.println(Country.indexOf("e"));
+        System.out.println(Country.lastIndexOf("e"));
     }
 }
