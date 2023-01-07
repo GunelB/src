@@ -33,5 +33,6 @@ public class Topic4_HA_String {
 
         System.out.println(s1==s2);
         System.out.println(s1==s3);
+        System.out.println(s2==s3);
     }
 }
