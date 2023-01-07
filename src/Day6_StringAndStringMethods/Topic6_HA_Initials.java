@@ -22,6 +22,9 @@ public class Topic6_HA_Initials {
                 // H. A.
         System.out.println("Initials = " + Initials);
 
+        // Alexander Graham Bell
+        // A. G. Bell
+
 
     }
 }
