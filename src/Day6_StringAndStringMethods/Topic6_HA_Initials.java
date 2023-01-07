@@ -21,5 +21,7 @@ public class Topic6_HA_Initials {
         String Initials = Name.charAt(0)+". "+Surname.charAt(0)+".";
                 // H. A.
         System.out.println("Initials = " + Initials);
+
+
     }
 }
