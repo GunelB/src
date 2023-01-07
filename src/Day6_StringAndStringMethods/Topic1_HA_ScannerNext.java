@@ -26,9 +26,11 @@ public class Topic1_HA_ScannerNext {
 
         System.out.printf("Name = %s, Surname = %s, Age = %d", Name, Surname, Age);
 
+
         /*
         %s  <- string
         %d  <- numeric
+        %f  <- double
          */
 
     }
