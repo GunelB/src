@@ -22,5 +22,9 @@ public class Topic6_HA_Example2 {
         Hello 4 Hi
          */
 
+        for (int i = 1; i <= 4 ; i++) {
+            System.out.printf("Hello %d Hi\n",i);
+        }
+
     }
 }
