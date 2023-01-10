@@ -1,8 +1,8 @@
-package Day7_GB;
+package Day7_Loop;
 
 import java.util.Scanner;
 
-public class Day7_ForLoop {
+public class Topic2_GB_StringMethodExamples2 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Please enter a word");
