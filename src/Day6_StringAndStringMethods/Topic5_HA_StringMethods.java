@@ -100,5 +100,20 @@ trim()	              Removes whitespace from both ends of a string	             
         String Country = "United States of America";
         System.out.println(Country.indexOf("e"));
         System.out.println(Country.lastIndexOf("e"));
+
+//length()	          Returns the length of a specified string	 int
+        String MyName = "Rebecca";
+        System.out.println("The length of " + MyName+" is "+MyName.length());
+        System.out.printf("The length of %s is %d", MyName, MyName.length() );
+        // %s <- String
+        // %d <- Decimal (Number)
+
+//        "The length of %s is %d", MyName,MyName.length()
+
+// replace()	Searches a string for a specified value, and returns
+//              a new string where the specified values are replaced	            String
+
     }
+
+
 }
