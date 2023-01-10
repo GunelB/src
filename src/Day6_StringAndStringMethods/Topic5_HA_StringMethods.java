@@ -104,7 +104,7 @@ trim()	              Removes whitespace from both ends of a string	             
 //length()	          Returns the length of a specified string	 int
         String MyName = "Rebecca";
         System.out.println("The length of " + MyName+" is "+MyName.length());
-        System.out.printf("The length of %s is %d", MyName, MyName.length() );
+        System.out.printf("The length of %s is %d \n", MyName, MyName.length() );
         // %s <- String
         // %d <- Decimal (Number)
 
@@ -112,6 +112,33 @@ trim()	              Removes whitespace from both ends of a string	             
 
 // replace()	Searches a string for a specified value, and returns
 //              a new string where the specified values are replaced	            String
+        String Word = "Canada is beautiful, Canada is awesome";
+        String NewWord = Word.replace("Canada", "USA");
+        System.out.println("NewWord = " + NewWord);
+
+// replaceFirst()	      Replaces the first occurrence of a substring that matches the
+//                      given regular expression with the given replacement	            String
+        String NewWord2 = Word.replaceFirst("Canada", "USA");
+        System.out.println("NewWord2 = " + NewWord2);
+
+//substring()	          Extracts the characters from a string,
+        //beginning at a specified start position,
+        //and through the specified number of character	                    String
+        
+        String FullName = "Alexander Graham Bell";
+                        // 0123456789
+        String MiddleName = FullName.substring(10,16);
+        System.out.println("MiddleName = " + MiddleName);
+        String FirstName = FullName.substring(0,9);
+        System.out.println("FirstName = " + FirstName);
+        String Surname = FullName.substring(17,21);
+        System.out.println("Surname = " + Surname);
+
+        String Surname2 = FullName.substring(17);
+        System.out.println("Surname2 = " + Surname2);
+
+        String MiddleAndLast = FullName.substring(10);
+        System.out.println("MiddleAndLast = " + MiddleAndLast);
 
     }
 
