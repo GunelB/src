@@ -16,7 +16,6 @@ public class Topic3_HA_StringMethodsExample3 {
         System.out.println(Word.substring(5,10));
         System.out.println(Word.substring(10,15));
         System.out.println(Word.substring(15,20));
-
         System.out.println(Word.substring(20,25));
         System.out.println(Word.substring(20));  // <- same with above
     }
