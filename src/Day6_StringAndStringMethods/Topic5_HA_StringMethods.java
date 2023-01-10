@@ -140,6 +140,22 @@ trim()	              Removes whitespace from both ends of a string	             
         String MiddleAndLast = FullName.substring(10);
         System.out.println("MiddleAndLast = " + MiddleAndLast);
 
+//toLowerCase()	      Converts a string to lower case letters	                       String
+
+        String Word2 = "CANADA IS BEAUTIFUL";  //T = 84  A=65  a=97
+        System.out.println(Word2.toLowerCase());
+
+//toUpperCase()	      Converts a string to upper case letters	                      String
+        String Word3 = "Usa iS AweSoMe";
+        System.out.println(Word3.toUpperCase());
+
+//trim()	              Removes whitespace from both ends of a string	             String
+        String Word4 = "     Can    ada           ";
+        Word4 = Word4.replace(" ", "");
+        System.out.println("Word4 = " + Word4);
+//        Word4 = Word4.trim();
+        boolean b = Word4.equals("Canada");
+        System.out.println("b = " + b);
     }
 
 
