@@ -25,6 +25,7 @@ public class Topic6_HA_Example6 {
 
         for (int i = 1; i <=9 ; i++) {
             System.out.printf("%d * %d = %d\n", MyNumber, i, MyNumber*i);
+        //    System.out.println(MyNumber+" * "+i+" = "+(MyNumber*i)); same with above just using println
         }
     }
 }
