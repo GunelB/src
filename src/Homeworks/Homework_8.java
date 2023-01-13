@@ -32,9 +32,6 @@ public class Homework_8 {
        /* int Max;
         Max = (Num1 > Num2)? Num1 : Num2;*/
 
-
-
-
         /*System.out.println("Please enter the number that indicates your birth month:");
         int Month;
         Month = scan.nextInt();
@@ -78,10 +75,6 @@ public class Homework_8 {
                 break;
             default:
                 System.out.println("Please enter valid number");
-           * /
-      }
-    }
-}
+           */
 
 
-         */

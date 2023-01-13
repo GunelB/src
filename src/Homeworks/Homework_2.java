@@ -8,11 +8,8 @@ public class Homework_2 {
     public static void main(String[] args) {
       Scanner scan = new Scanner(System.in);
         System.out.println("Enter the word mum");
+        String Word = scan.next();
 
-        boolean IsItPalindrome = true;
-
-            System.out.println("It is palindrome ");
-            System.out.println("Is not palindrome");
         }
         //int number = scan.nextInt();
         //int Sum = scan.nextInt();
