@@ -19,6 +19,7 @@ public class Topic6_HA_WhileLoopExample {
         while (i <= Number){
             if (i % 2 == 1){ // if it is an odd number   1 = 0*2 + 1      3 = 1*2 + 1
             //if (i % 2 != 0){  <- this is same with above if.
+                System.out.println("i = " + i);
                 Count = Count + 1;
             }
             i++;
@@ -31,8 +32,5 @@ the below code is same with above. In here we used for loop, above we used while
         }
  */
 
-        while (true){
-            System.out.println("Hi");
-        }
     }
 }
