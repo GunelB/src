@@ -26,7 +26,7 @@ public class Topic1_HA_Example1 {
         }
          */
         int Count = 0;
-        // 5,6,7,8,9,10
+        // 5,6,7,8,9,10,11,12,13,14,15
         for (int i = Start; i <= End ; i++) {
             // count the numbers
             //int Count = 0;  //<- this will set the count to zero everytime code get executed
