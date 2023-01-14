@@ -12,9 +12,10 @@ public class Topic2_HA_Example {
         accept number in the loop
 
         ask for the number
-        average = total / 5
+        average = total / HowManyNumbers
         i need total
         store the total in a variable
+
         5 3 9 14 9  = 40/5 = print 8
 
         image user will enter above number
