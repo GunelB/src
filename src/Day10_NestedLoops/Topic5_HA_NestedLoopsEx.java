@@ -14,12 +14,10 @@ public class Topic5_HA_NestedLoopsEx {
 
         for (int i = 1; i <=5 ; i++) {
             for (int j = 1; j <=3 ; j++) {
-                if (j<3) {
                     System.out.print(j + " ");
-                }else {
-                    System.out.println(j + " ");
-                }
             }
+
+            System.out.println("");
         }
     }
 }
