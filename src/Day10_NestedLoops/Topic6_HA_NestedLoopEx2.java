@@ -12,5 +12,13 @@ public class Topic6_HA_NestedLoopEx2 {
 
         please use nested for loops
          */
+
+        for (int i = 1; i <=4 ; i++) {
+            for (int j = 1; j <=3 ; j++) {
+                System.out.print("*");
+            }
+            System.out.println("");
+        }
+
     }
 }
