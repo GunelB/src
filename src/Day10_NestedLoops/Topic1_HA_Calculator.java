@@ -26,12 +26,14 @@ public class Topic1_HA_Calculator {
 
 //      while (Selection == 1 || Selection ==2 || Selection == 3 || Selection == 4){ <- same with below
         //        1<=Selection<=4
+
+
         while (1 <= Selection && Selection <=4){
+
             System.out.println("Please enter first number");
             int Number1 = scan.nextInt();
             System.out.println("Please enter second number");
             int Number2 = scan.nextInt();
-
             if (Selection == 1){
                 System.out.printf("The result is %d", Number1 + Number2 );
             } else if (Selection == 2){
@@ -42,12 +44,11 @@ public class Topic1_HA_Calculator {
                 System.out.printf("The result is %d", Number1 * Number2 );
             }
             System.out.println("");
-            System.out.println("****************");
-
 
             System.out.println("Please make a selection : 1 for Add, 2 for Sub, 3 for Div, 4 for Mult");
 
             Selection = scan.nextInt();
+
 
         }
 
