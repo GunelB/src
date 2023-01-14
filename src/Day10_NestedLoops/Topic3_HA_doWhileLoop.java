@@ -20,5 +20,11 @@ public class Topic3_HA_doWhileLoop {
             System.out.println("i = " + i);
             i++;
         }while (i<=5);
+
+
+        /*
+        they will give you an array or a list
+        they will ask you print each value using for loop, while loop, Enhanced for loop (For each)
+         */
     }
 }
