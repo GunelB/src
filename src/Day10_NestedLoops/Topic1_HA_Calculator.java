@@ -25,9 +25,9 @@ public class Topic1_HA_Calculator {
         // if selection is 1 or 2 or 3 or 4, do something
 
 //      while (Selection == 1 || Selection ==2 || Selection == 3 || Selection == 4){ <- same with below
+
+
         //        1<=Selection<=4
-
-
         while (1 <= Selection && Selection <=4){
 
             System.out.println("Please enter first number");
