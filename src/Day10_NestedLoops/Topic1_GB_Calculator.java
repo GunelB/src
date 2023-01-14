@@ -1,4 +1,4 @@
-package Day10_NastedLoops;
+package Day10_NestedLoops;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Day10_NastedLoops;
+package Day10_NestedLoops;
 
 public class Topic6_GB_NestedLoopEx2 {
     public static void main(String[] args) {
