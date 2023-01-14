@@ -2,7 +2,7 @@ package Day5_SwitchStatement;
 
 import java.util.Scanner;
 
-public class Day5_SwitchStatement_GB {
+public class Day5_GB_SwitchStatement {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int Age = scan.nextInt();

@@ -2,7 +2,7 @@ package Day4_IfStatements;
 
 import java.util.Scanner;
 
-public class Topic9_scannerCont {
+public class Topic9_GB_ScannerCont {
     public static void main(String[] args) {
         //get user name and surname
 

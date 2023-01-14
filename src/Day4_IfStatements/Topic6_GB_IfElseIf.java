@@ -1,6 +1,6 @@
 package Day4_IfStatements;
 
-public class Topic6_IfElseIf {
+public class Topic6_GB_IfElseIf {
     public static void main(String[] args) {
         // if(){}(say if it is positive)
         //}else if(if it is negative
