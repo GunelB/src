@@ -1,7 +1,7 @@
 package Day6_StringAndStringMethods;
 import java.util.Scanner;
 
- public class Topic2_GB_Calculation {
+ public class Topic2_GB_ScannerCalculator {
      public static void main(String[] args) {
          Scanner scan = new Scanner(System.in);
          System.out.println("Type the first number");
