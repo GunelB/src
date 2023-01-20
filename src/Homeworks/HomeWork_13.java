@@ -2,7 +2,7 @@ package Homeworks;
 
 import java.awt.*;
 import java.util.Scanner;
-
+//Write a program where the user is being asked to enter a String and that  will count how many //  //times"a" or 'A'is found  in that entered String
 public class HomeWork_13 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -12,10 +12,10 @@ public class HomeWork_13 {
         char A= 'A';
         char a='a';
 
-        for (int i = 0; i <sent.length(); i++){
-            if(sent.charAt(i)=='A'){
+        for (int i = 0; i <sent.length()-1; i++){
+            if(sent.charAt(i)=='A'|| sent.charAt(i)=='a') {
                 count++;
-            }else if (sent.charAt(i)== 'a'){
+            }
 
         }
             System.out.println("There are " +count+ "'A' or 'a'");
@@ -31,8 +31,7 @@ public class HomeWork_13 {
         int Square = 0;
         for (int i= 0; i <=10; i++) {
             Square =i*i;
-
             System.out.println(i+ " * "+i+ "=" +i*i); */
         }
-    }
+
 
