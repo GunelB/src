@@ -8,11 +8,13 @@ public class Topic1_GB {
 
         Random random = new Random();
         int MyRandomNumber = random.nextInt(100) + 1;
+        System.out.println("MyRandomNumber = " + MyRandomNumber);
         Scanner scan = new Scanner(System.in);
         System.out.println("Please enter a number");
         int Guess = scan.nextInt();
         boolean DidUserGuessIt = false;
         while (DidUserGuessIt == false) {
+
             if (Guess > MyRandomNumber) {
                 System.out.println("It is higher,go lower");
                 DidUserGuessIt = false;
