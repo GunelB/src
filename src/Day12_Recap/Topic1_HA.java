@@ -22,6 +22,7 @@ public class Topic1_HA {
         Please enter a number
         if I enter 55
         It is higher, go lower
+        get a new number from user
         if I enter 40
         It is higher, go lower
         if I enter 30
@@ -33,7 +34,7 @@ public class Topic1_HA {
 
         //Let say our random value = 35
         Random random = new Random();
-        int MyRandomNumber = random.nextInt(100) + 1;
+        int MyRandomNumber = random.nextInt(100) + 1; // 0-99  + 1 => 1-100
         System.out.println("MyRandomNumber = " + MyRandomNumber);
 
         //Please enter a number
@@ -48,6 +49,7 @@ public class Topic1_HA {
             //It is higher, go lower
             //55 <- Guess
             //35 <- MyRandomNumber
+//            if (55 > 35)
             if (Guess > MyRandomNumber){
                 System.out.println("It is higher, go lower");
                 DidUserGuessIt = false;
