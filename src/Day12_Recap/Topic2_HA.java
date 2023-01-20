@@ -9,8 +9,6 @@ public class Topic2_HA {
         159 => 3 digits
         123456 => 6 digits
         1 => 1 digits
-        0123 => 123 -> 3 digits
-        9462135484
          */
 
         /*
@@ -28,7 +26,7 @@ public class Topic2_HA {
         int count = 1;
         // if I enter a number between 0-9 the result of above will be false
         while (Number / 10 > 0){
-            count++;
+            count++; //<- count = count + 1; or count += 1;
             Number = Number / 10;
         }
 
