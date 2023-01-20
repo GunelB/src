@@ -6,10 +6,10 @@ public class Topic3_HA {
     public static void main(String[] args) {
 //Create a Java Program to sum Number of Digits in an Integer
 /*
-159 => 15
-2223 => 9
-999 => 27
-5123 => 11
+159 => 15     1+5+9=15
+2223 => 9     2+2+2+3=9
+999 => 27     9+9+9=27
+5123 => 11    5+1+2+3=11
  */
 
         /*
@@ -17,7 +17,6 @@ public class Topic3_HA {
         159 / 10  = 15 as result and 9 as remainder  <- 15*10 + 9
         15 / 10 = 1 as result and 5 as remainder     <- 1*10 + 5
         1 / 10 = 0 as result and 1 as remainder      <- 0*10 + 1
-        0 / 10 = 0 as result and 0 as remainder      <- 0*10 + 0
 
         160
         160 / 10 = 16 as result and 0 as remainder
