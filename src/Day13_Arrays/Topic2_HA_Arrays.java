@@ -47,6 +47,10 @@ public class Topic2_HA_Arrays {
 
         // I want to print all the names in the Names array
 
+        for (int i = 0; i < Names.length; i++) {  // i<=10    i<11
+            System.out.println(Names[i]);
+        }
+
 
     }
 }
