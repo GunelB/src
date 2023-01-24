@@ -12,9 +12,9 @@ public class Topic2_GB_SwapValuesExample {
         Car2= temp;
         double Number1 = 55.87;
         double Number2 = 99.15;
-        double temp = Number1;
+        double temp2 = Number1;
         Number1=Number2;
-        double temp =Number2;
+        double temp3 =Number2;
         System.out.println("temp = " + temp);
 
     }
