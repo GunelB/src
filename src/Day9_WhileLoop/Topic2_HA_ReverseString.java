@@ -2,7 +2,8 @@ package Day9_WhileLoop;
 
 import java.util.Scanner;
 
-public class Topic2_HA_ReverseString {
+public class
+Topic2_HA_ReverseString {
     public static void main(String[] args) {
         /*
         write a code where user is being asked to enter a string.
