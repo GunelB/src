@@ -7,12 +7,14 @@ public class Topic5_HA_ArrayExample {
         int [] Array1 = {1,8,9};
         int [] Array2 = {55,21,97,-9};
 
+        // I want to add 2 arrays into 1 array
+        // {1,8,9,55,21,97,-9}
+
+
 //        int [] Array3 = Array1 + Array2; you can't use this. Java will throw an error.
 
-        // I want to add 2 arrays into 1
-        // {1,8,9,55,21,97,-9}
         /*
-        i need to create another array
+        I need to create another array
         this array will empty
         DataType [] VariableName = new Datatype[length];
         I need to find total length
@@ -42,6 +44,7 @@ public class Topic5_HA_ArrayExample {
 
         // Array3 = {1,8,9,0,0,0,0}
         // Array2 = {55,21,97,-9}
+        //I'll put the values of Array2 into Array3
         for (int i = 0; i < Array2.length; i++) {
             // i = 0
             Array3[i+Array1.length] = Array2[i];
