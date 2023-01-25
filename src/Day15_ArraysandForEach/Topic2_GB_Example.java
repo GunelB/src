@@ -14,6 +14,7 @@ public class Topic2_GB_Example {
         int[]Array2=new int[Array1.length];          //equal array3
         //need to iterate downwards
         for (int i = Array1.length-1; i >=0 ; i--) {
+            Array1
 
         }
     }
