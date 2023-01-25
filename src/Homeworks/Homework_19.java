@@ -1,5 +1,6 @@
 package Homeworks;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Homework_19 {
@@ -10,17 +11,31 @@ public class Homework_19 {
 
         Scanner scan= new Scanner(System.in);
         System.out.println("Enter word with double letters each");
-        //AAAAVVVVCCDDDAAA
-        String word = scan.next();
-        String newWord = "" + word.charAt(0);
-        for (int index = 0; index < word.length(); index++) {
-   //         if (!newWord.contains(String.valueOf(word.charAt(i))));
-     //       newWord= newWord += word.charAt(i);
+        //AADDCC
+        String word= scan.nextLine();
+        int count;
+        char string[]= word.toCharArray();
+        for (int i = 0; i < string.length; i++) {
+            count=1;
+            for (int j =i+1; j < string.length; j++) {
+                if (string[i] == string[j]) {
+                    count++;
+                    string[j]='0';
+                }
+            }
+            if (count>1 && string[i] !='0'){
+                System.out.println(string[i]);
+            }
+                    }
+
+
+
+
         }
-        System.out.println(newWord);
+
 
     }
-}
+
 
 //    String s = "abcdabd";
 //        String temp = "" + s.charAt(0);
@@ -31,13 +46,7 @@ public class Homework_19 {
 //        }
 //        System.out.println(temp);
 //    }
- //    String input = "AAAB";
-   // String output = "";
-    //for (int index = 0; index < input.length(); index++) {
-      //  if (input.charAt(index % input.length()) != input
-        //.charAt((index + 1) % input.length())) {
-
-        //output += input.charAt(index);
+ //    Str
 
         //}
         //}
