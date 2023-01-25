@@ -36,6 +36,8 @@ public class Topic1_HA_ForEach {
         // for (DataType VariableName: MyArrayVariableName ){}
         for (char MyChar:HiArray){
             System.out.println("MyChar = " + MyChar);
+
+            //System.out.print(MyChar+", ");
         }
 
     }
