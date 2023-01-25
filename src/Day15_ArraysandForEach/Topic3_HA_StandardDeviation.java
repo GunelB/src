@@ -23,6 +23,7 @@ public class Topic3_HA_StandardDeviation {
         int [] NewArray = new int[n];
 
         // I will get the element and subtract mean and put it into new array
+        //Subtract the mean from each of your numbers in your sample
         for (int i = 0; i < n; i++) {  // i<=5  ->   i<6
             NewArray[i] = (Numbers[i] - Mean) * (Numbers[i] - Mean)  ; // i=0 -> NewArray[0] = Numbers[0] - 8;
         }
