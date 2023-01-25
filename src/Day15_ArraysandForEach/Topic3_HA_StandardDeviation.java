@@ -33,11 +33,19 @@ public class Topic3_HA_StandardDeviation {
 
 
         System.out.println(Arrays.toString(NewArray));
-        int Total2 = 0;
+        double Total2 = 0;
         for (int CurrentNumberInNewArray : NewArray){
             Total2 = Total2 + CurrentNumberInNewArray;
         }
         System.out.println("Total2 = " + Total2);
 
+        double Variance = Total2 / (n-1);
+        System.out.println("Variance = " + Variance);
+
+        double StandardDeviation = Math.sqrt(Variance);
+        System.out.println("StandardDeviation = " + StandardDeviation);
+
+        // how to get 2 decimal places in Java
+        System.out.println(Math.round(StandardDeviation * 100.0 ) / 100.0);
     }
 }
