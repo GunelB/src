@@ -14,8 +14,6 @@ public class Topic3_GB_StandardDeviation {
         System.out.println("Total = " + Total);
         int Mean= Total/n;
 
-
-
         //need empty array
         //will get element(each numberes)  and subtract mean put into new array
 

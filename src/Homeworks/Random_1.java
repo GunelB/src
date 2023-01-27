@@ -2,17 +2,24 @@ package Homeworks;
 
 public class Random_1 {
     public static void main(String[] args) {
-        String Input ="Code";
-        String Reverse ="";
-        for (int i =Input.length()-1; i>=0; i--) {
-            Reverse=Reverse+Input.charAt(i);
-            System.out.println(Reverse);
+       // String Input ="Code";
+     //   String Reverse ="";
+       // for (int i =Input.length()-1; i>=0; i--) {
+       //     Reverse=Reverse+Input.charAt(i);
+        //    System.out.println(Reverse);
+
+
+
+
+
+
+
         }
 
     }
 
 
-    }
+
 
     /*public class Homework_16 {
     public static void main(String[] args) {
@@ -37,3 +44,4 @@ public class Random_1 {
 //  frontBack("ab") → "ba"
 
 
+ //A group of friends are renting a place(5 friends) .Later 5 more friends want to move in. Create a program that will have all friends living under one roof.                                           String String[] Friends1={ Volkan, Gokhan, Turkan,Furkan,Berkan};
