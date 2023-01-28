@@ -36,6 +36,22 @@ public class Topic2_HA_MethodsCont {
         System.out.println("Fancy = " + Fancy);
     }
 
+    //Write a method that sum 2 numbers
+
+    /*
+    Create a method
+    Parameters <- 2 int parameters
+    Return Type <- int
+    public static ReturnType MethodName (param1Type Param1Name, .......)
+     */
+
+    public static int SumTwo (int Number1, int Number2){
+//        int Sum = Number1 + Number2;
+//        return Sum;
+
+        return Number1 + Number2;
+    }
+
 
 
 }
