@@ -26,7 +26,7 @@ public class Topic2_HA_MethodsCont {
         //You should concat them and print it.
         String Food = Veggies+Salt+Oil;
 
-        String VeggieAndSalt = Veggies.concat(Salt);
+        String VeggieAndSalt = Veggies.concat(Salt);  //Veggies+Salt
         String VeggieSaltAndOil = VeggieAndSalt.concat(Oil);
         
         String Fancy = Veggies.concat(Salt).concat(Oil);
