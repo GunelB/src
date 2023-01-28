@@ -7,6 +7,20 @@ public class Topic3_HA_Example1 {
 // Write a code where user is being asked to enter a Sentence
 // check for each word to see word is palindrome  <- create a method that checks palindrome
 
+        /*
+        Create a method that will check if the word is palindrome
+        Parameters 1- String because I need the Word to check it
+        ReturnType boolean
+
+         */
+
+        /*
+        Write a code where user is being asked to enter a Sentence
+        I will use Scanner
+        I'll inform the user
+        I'll get the sentence with nextLine
+
+         */
 
 
         //Write a code where user is being asked to enter a Sentence
@@ -15,12 +29,19 @@ public class Topic3_HA_Example1 {
         System.out.println("Please enter a sentence");
         String Sentence = scan.nextLine();
 
+        /*
+        check for each word to see word is palindrome
+        I need to get each word from sentence
+        I need to check each word if it is palindrome
+         */
+
         // I need to get all words
+        // Hello World This is Java
         String[] Words = Sentence.split(" ");
 
         // for
         // for each
-
+//I need to check each word if it is palindrome
         for (String MyWord : Words ){
             boolean isPalindrome = CheckPalindrome(MyWord);
             System.out.println("is "+MyWord+" Palindrome : "+isPalindrome);
@@ -53,15 +74,10 @@ public class Topic3_HA_Example1 {
         for (int i = 0; i < Word.length(); i++) {
             ReversedString = Word.charAt(i) + ReversedString;
         }
+        // Word = Madam
+        // ReversedString = madaM
 
-        /*
-        if (ReversedString.equalsIgnoreCase(Word) ){
-            return true;
-        }else {
-            return false;
-        }
-         */
-
-        return ReversedString.equalsIgnoreCase(Word);
+        boolean isPalindrome = ReversedString.equalsIgnoreCase(Word);
+        return isPalindrome;
     }
 }
