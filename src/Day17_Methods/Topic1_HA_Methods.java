@@ -3,6 +3,19 @@ package Day17_Methods;
 public class Topic1_HA_Methods {
     public static void main(String[] args) {
 // Write a method where it takes array of integers and print the sum of all the elements in the array
+      /*
+        I need to create a method
+        //public static ReturnType MethodName (Param1Type Param1Name, Param2Type Param2Name.......)
+
+        In the method I will print the sum of all the elements in the array
+
+        // This method should take an int array as parameter
+        // ReturnType - no return - void
+        // methodname - anything you want that makes sense
+
+       */
+
+
         int[] Numbers = {77,12,55,9,-9};
         SumArray(Numbers);
     }
