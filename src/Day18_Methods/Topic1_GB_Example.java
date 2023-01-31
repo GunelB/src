@@ -12,7 +12,7 @@ public class Topic1_GB_Example {
         String MySentence = scan.nextLine();
         //check each word --means split into words--iterate each word
         //how many l,a,b
-        String[] MyWords = MySentence.split("\\.");
+        String[] MyWords = MySentence.split(" ");
         for (String Words : MyWords) {
 
         }
