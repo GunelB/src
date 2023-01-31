@@ -7,6 +7,7 @@ public class Topic4_HA_Example3 {
 Missing Number
 {6,1,2,8,3,4,7,10,5}
 Output: 9
+
 {1,2,3,4,5,6,7,8,10}
 
 1 - yes
