@@ -20,7 +20,7 @@ for ex.
          */
 
         int[] a = {1,2,3};
-        int[] b = {1,5};
+        int[] b = {7,3,2};
 
         boolean Result = Compare2Arrays(a,b);
         System.out.println("Result = " + Result);
