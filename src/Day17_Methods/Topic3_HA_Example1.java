@@ -76,8 +76,19 @@ public class Topic3_HA_Example1 {
         }
         // Word = Madam
         // ReversedString = madaM
+        /*
+        boolean isPalindrome;
 
-        boolean isPalindrome = ReversedString.equalsIgnoreCase(Word);
+        if (ReversedString.equalsIgnoreCase(Word) == true){
+            isPalindrome = true;
+        }else {
+            isPalindrome = false;
+        }
+
+         */
+
+        boolean isPalindrome = ReversedString.equalsIgnoreCase(Word); // this line is same with above if block
         return isPalindrome;
+
     }
 }
