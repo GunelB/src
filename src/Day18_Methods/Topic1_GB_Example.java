@@ -18,29 +18,28 @@ public class Topic1_GB_Example {
         }
     }
 
-    public static int Calculate_l(String MyWord) {
+   // public static int Calculate_l(String MyWord) {
         // calculate how many'l'
-        int Count = 0;
-        for (int i = 0; i < MyWord.length(); i++) {
-            if (MyWord.charAt(i) == 'l') {
-                Count = Count + 1;
+      //  int Count = 0;
+        //for (int i = 0; i < MyWord.length(); i++) {
+          //  if (MyWord.charAt(i) == 'l') {
+            //    Count = Count + 1;
             }
 
-        }
-        return Count;
-    }
+       // }
+       // return Count;
+   // }
 
-    public static int Calculate_l(String MyWord) {
+     // public static int Calculate_l(String MyWord) {
         // calculate how many'l'
-        int Count = 0;
-        for (int i = 0; i < MyWord.length(); i++) {
-            if (MyWord.charAt(i) == 'l') {
-                Count = Count + 1;
-            }
+       // int Count = 0;
+        //for (int i = 0; i < MyWord.length(); i++) {
+          //  if (MyWord.charAt(i) == 'l') {
+            //    Count = Count + 1;
+       //     }
 
-        }
-        return Count;
+      //  }
+        //return Count;
 
-    }
+
     //int HowMany_Calculate_l(Word);
-}
