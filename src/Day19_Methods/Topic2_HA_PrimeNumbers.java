@@ -38,7 +38,9 @@ Output : 11, 13, 17, 19
         System.out.println("Please enter a : ");
         int a = scan.nextInt();
 
-//        a<=1
+        if (a == 1){
+            a++;
+        }
 
         System.out.println("Please enter b : ");
         int b = scan.nextInt();
@@ -75,6 +77,16 @@ Output : 11, 13, 17, 19
         9/3   check the remainder, it is equals to 0, stop
          */
         boolean IsItPrimeNumber = true;
+
+
+        /*
+        if it is less than and equals 1, it is not a prime number
+         */
+
+        if (Number <= 1){
+            IsItPrimeNumber = false;
+        }
+
         for (int i = 2; i <= Number - 1 ; i++) {
             int Remainder = Number % i;  // i=2
 
