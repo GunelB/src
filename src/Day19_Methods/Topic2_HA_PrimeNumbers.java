@@ -30,17 +30,13 @@ Output : 11, 13, 17, 19
 
         /*
         I need to get 2 numbers from user
-        start from a up to b, check if it is prime
+        start from a up to b, check each number if it is prime
          */
 
         //I need to get 2 numbers from user
         Scanner scan = new Scanner(System.in);
         System.out.println("Please enter a : ");
         int a = scan.nextInt();
-
-        if (a == 1){
-            a++;
-        }
 
         System.out.println("Please enter b : ");
         int b = scan.nextInt();
@@ -59,6 +55,7 @@ Output : 11, 13, 17, 19
 
         }
     }
+
 
     public static boolean CheckPrimeNumber (int Number){
         // i need to check if it is prime. If yes, return true, if not return false
