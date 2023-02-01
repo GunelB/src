@@ -17,6 +17,7 @@ OUTPUT : 5 1 2 3 4
         //another int arrray
         int [] MyNewNumbers = new int[MyNumbers.length];
 
-        //iterate each element
+        //iterate each element put into correct position
+
     }
 }
