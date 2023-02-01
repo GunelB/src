@@ -38,6 +38,8 @@ Output : 11, 13, 17, 19
         System.out.println("Please enter a : ");
         int a = scan.nextInt();
 
+//        a<=1
+
         System.out.println("Please enter b : ");
         int b = scan.nextInt();
 
@@ -47,10 +49,42 @@ Output : 11, 13, 17, 19
             // Create a method to check if it is prime
             // Parameters 1 parameter, int
             // ReturnType boolean
+            boolean IsItPrimeNumber = CheckPrimeNumber(i);
+            //If it is prime, i will print it
+            if (IsItPrimeNumber == true){
+                System.out.println(i+" is a prime number");
+            }
+
         }
     }
 
     public static boolean CheckPrimeNumber (int Number){
         // i need to check if it is prime. If yes, return true, if not return false
+        // 7
+        // 7/1   or 7/7
+        /*
+        7/2   check the remainder, if it is greater than 0, continue
+        7/3   check the remainder, if it is greater than 0, continue
+        7/4   check the remainder, if it is greater than 0, continue
+        7/5   check the remainder, if it is greater than 0, continue
+        7/6   check the remainder, if it is greater than 0, continue
+
+        6/2   check the remainder, it is equals 0, it is not a prime number, stop
+
+        9/2   check the remainder, it is greater than 0, continue
+        9/3   check the remainder, it is equals to 0, stop
+         */
+        boolean IsItPrimeNumber = true;
+        for (int i = 2; i <= Number - 1 ; i++) {
+            int Remainder = Number % i;  // i=2
+
+            if (Remainder == 0){
+                IsItPrimeNumber = false;
+                break;
+            }
+
+        }
+
+        return IsItPrimeNumber;
     }
 }
