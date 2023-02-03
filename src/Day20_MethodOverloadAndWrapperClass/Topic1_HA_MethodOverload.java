@@ -39,8 +39,8 @@ public class Topic1_HA_MethodOverload {
         return number1+number2;
     }
 
-    public static int Add(int param1){  // int
-        return param1 + 1;  //++param1
+    public static int Add(int anything){  // int
+        return anything + 1;  //++param1
     }
 
     public static String Add(String param1, String param2){ //String String
