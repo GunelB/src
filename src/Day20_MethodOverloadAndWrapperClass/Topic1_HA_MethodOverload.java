@@ -46,6 +46,10 @@ public class Topic1_HA_MethodOverload {
     public static String Add(String param1, String param2){ //String String
         return param1+param2;
     }
+    // The below method overload is not correct as it has same name and same parameter signature.
+//    public static String Add(String param1, String param2){ //String String
+//        return param1+" "+param2;
+//    }
     /*
     private void Add(String param1){ // String
 
