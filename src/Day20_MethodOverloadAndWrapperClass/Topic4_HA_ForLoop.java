@@ -17,6 +17,9 @@ public class Topic4_HA_ForLoop {
         for (int i = 10; i < 15; i++){
             System.out.println(i);
         }
+
+        i = i + 5;
+        i += 5;
          */
 
     }
