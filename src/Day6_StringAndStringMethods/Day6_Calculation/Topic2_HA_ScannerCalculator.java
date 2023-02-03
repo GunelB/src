@@ -1,4 +1,4 @@
-package Day6_Calculation;
+package Day6_StringAndStringMethods.Day6_Calculation;
 
 import java.util.Scanner;
 
