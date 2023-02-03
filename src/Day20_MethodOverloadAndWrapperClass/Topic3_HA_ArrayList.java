@@ -59,6 +59,7 @@ public class Topic3_HA_ArrayList {
         MyNewArray.add(x);
         System.out.println("MyNewArray = " + MyNewArray);
 
+
         /*
         int     -   Integer
         double  -   Double
