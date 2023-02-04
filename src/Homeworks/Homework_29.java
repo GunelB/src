@@ -2,8 +2,8 @@ package Homeworks;
 
 import java.util.Scanner;
 
-public class Homework_29 {
-    public static void main(String[] args) {
+//public class Homework_29 {
+   // public static void main(String[] args) {
    /*     1 - Create a method that determines whether a number is Oddish or Evenish.
    A number is Oddish if the sum of all of its digits is odd, and a number is Evenish if the sum of all of its digits is even. If a number is Oddish, return "Oddish". Otherwise, return "Evenish".
       For example, oddishOrEvenish(121) should return
@@ -21,29 +21,28 @@ public class Homework_29 {
 // 14 % 2 = 0
     }
      */
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Please Enter the number");
-        int number= scan.nextInt();
+    //    Scanner scan = new Scanner(System.in);
+     //   System.out.println("Please Enter the number");
+       // int number = scan.nextInt();
 
 
+ //   }
 
-}
-
-public static int OddorEvenIs(int number){
-        int n=0;
-        String OddOrEvenNumber;
-        while(number>0){
-            n=n+number%10;
-  //          number=
-        }
+   // public static int OddorEvenIs(int number) {
+       //// int n = 0;
+ //       String OddOrEvenNumber;
+   //     while (number > 0) {
+       //     n = n + number % 10;
+            //          number=
+ //       }
+  //  }
 //}
-
 
 
   //  oddisorevenis(usernumber);
 //}
-    public static String oddisorevenis (int number){
-        int x=0;
+  //  public static String oddisorevenis (int number){
+    /*    int x=0;
         String EvenishorOddis;
         while(number>0){
             x=x+number%10;
@@ -57,4 +56,4 @@ public static int OddorEvenIs(int number){
             System.out.println(EvenishorOddis);
         }
         return EvenishorOddis;
-    }
+    } */
