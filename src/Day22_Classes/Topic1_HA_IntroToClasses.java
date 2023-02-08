@@ -70,6 +70,5 @@ class Car {
     String Model;
     String Color;
     int Year;
-
     String Transmission;
 }
