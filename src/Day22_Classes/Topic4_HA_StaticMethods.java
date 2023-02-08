@@ -3,6 +3,7 @@ package Day22_Classes;
 public class Topic4_HA_StaticMethods {
     public static void main(String[] args) {
         CupCakeMold.GetStyle();
+        CupCakeMold.GetTaste();
 
         //Instance of CupCake
         CupCakeMold MyCupCake = new CupCakeMold();
@@ -11,7 +12,11 @@ public class Topic4_HA_StaticMethods {
 
 class CupCakeMold {
     //Fields
-    String Color;
+    static String Color;
+
+    static void GetTaste (){
+        System.out.println("Awful");
+    }
 
     //Methods
     static void GetStyle (){
