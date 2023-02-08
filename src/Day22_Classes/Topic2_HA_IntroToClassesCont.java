@@ -23,6 +23,7 @@ public class Topic2_HA_IntroToClassesCont {
 
         MyForm.PrintRegistrationForm();
     }
+
 }
 
 class StudentRegistrationForm{
@@ -35,7 +36,7 @@ class StudentRegistrationForm{
     //Methods
     void PrintRegistrationForm(){
         System.out.println("Name : "+Name);
-        System.out.println("Surname : "+this.Surname);
+        System.out.println("Surname : "+Surname);
         System.out.println("Gender : "+this.Gender);
         System.out.println("Age : "+Age);
     }
