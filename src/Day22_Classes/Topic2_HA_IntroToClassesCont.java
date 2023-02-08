@@ -27,6 +27,7 @@ public class Topic2_HA_IntroToClassesCont {
 }
 
 class StudentRegistrationForm{
+
     //Fields
     String Name;
     String Surname;
