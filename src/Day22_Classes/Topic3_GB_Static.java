@@ -5,7 +5,7 @@ public class Topic3_GB_Static {
         GB_RenastechStudentRegistrationForm MyForm = new GB_RenastechStudentRegistrationForm();
         MyForm.Name = "Gunel";
         MyForm.Surname = "Bagh";
-        MyForm.School
+        MyForm.School= "Renastech";
     }
 
     class GB_RenastechStudentRegistrationForm {
