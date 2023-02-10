@@ -4,6 +4,13 @@ public class Employee {
     // Fields
     // default -> we can access it from same package
     // public, private, protected or default
+    /*
+    Access Modifiers
+    a) private : private fields or methods or constructors are visible within the class in which they are defined.
+    b) protected : Protected members of a class are visible within the package, but they can be inherited to subclasses outside the package.
+    c) public : public members are visible everywhere.
+    d) default or No-access modifiers : Members of a class which are defined with no access modifiers are visible within the package in which they are defined.
+     */
     String Name;
     String Surname;
     String Department;
