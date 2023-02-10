@@ -2,6 +2,7 @@ package Day23_Classes_Encapsulation;
 
 public class Topic3_HA_Constructors {
     public static void main(String[] args) {
+        // Datatype VariableName = new Constructor
         Employee Employee1 = new Employee();
         Employee1.Name = "Hayri";
         Employee1.Surname = "Aslan";
@@ -22,6 +23,8 @@ public class Topic3_HA_Constructors {
         Employee4.Surname = "Queen";
         Employee4.Department = "QA";
 
+        Employee Employee5 = new Employee("Eren", "Dilli", "QA");
+        System.out.println(Employee5.Name);
 
 
     }

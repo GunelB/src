@@ -39,5 +39,19 @@ public class Employee {
     public String GetFullName (){
         return Name+" "+Surname;
     }
+
+
+    // Constructor
+    // This is a specific method with no return
+    // this method get called everytime you create an Employee
+    public Employee(){
+        System.out.println("You created an Employee");
+    }
+
+    public Employee(String p_Name, String p_Surname, String p_Department ){
+        Name = p_Name;
+        Surname = p_Surname;
+        Department = p_Department;
+    }
 }
 
