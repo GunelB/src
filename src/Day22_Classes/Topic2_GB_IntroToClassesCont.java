@@ -15,8 +15,8 @@ public class Topic2_GB_IntroToClassesCont {
         System.out.println("Please enter your age: ");
         MyForm.Age= scan.nextInt();
     }
-}
- class StudentRegistrationForm{
+//}
+ //class StudentRegistrationForm{
     String Name;
     String Surname;
     int Age;
