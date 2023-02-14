@@ -23,4 +23,41 @@ The keyword used for inheritance is extends.
     public Cow(){
         NumberOfLegs = 4;
     }
+
+    @Override
+    public void Sound() {
+        //super.Sound();
+
+        System.out.println("Moo Moo");
+    }
+
+    @Override
+    protected void SemiHiddenMethod() {
+        super.SemiHiddenMethod();
+    }
+
+
+/*
+    Access Modifiers
+    a) private : private fields or methods or constructors are visible within the class in which they are defined.
+    b) protected : Protected members of a class are visible within the package, but they can be inherited to subclasses outside the package.
+    c) public : public members are visible everywhere.
+    d) default or No-access modifiers : Members of a class which are defined with no access modifiers are visible within the package in which they are defined.
+     */
+
+    //Private methods can not be @override
+    //Protected methods can be
+
+////ONLY the instance methods can be overridden
+////@Override annotation MUST be applicable
+    // static, final, abstract,synchronize
+    // final methods can not be overridden.
+    // you can not override the constructor of super(Parent) class
+////
+
+    // OverLoading vs Override  =
+    // Override is used when we want to treat the parent method to have different
+    // reaction when it is called from the child instance,
+    // Overloading : We use overloading to use the same method for different input parameters and return types
+    // it is for the same class methods.
 }

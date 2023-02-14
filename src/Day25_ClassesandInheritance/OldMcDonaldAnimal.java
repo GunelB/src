@@ -6,6 +6,9 @@ public class OldMcDonaldAnimal {
     String Tag;
     int NumberOfLegs;
 
+    final String FarmName = "Old McDonaldFarm";
+    // What is difference between final, finally, finalize()
+
     public void Eat(){
         System.out.println(Name+" is eating!");
     }
@@ -13,4 +16,17 @@ public class OldMcDonaldAnimal {
     public void Sound (){
         System.out.println("Default Sound Method");
     }
+
+    private void HiddenMethod(){
+
+    }
+
+    protected void SemiHiddenMethod(){
+
+    }
+
+    public final void FinalMethod(){
+
+    }
+
 }
