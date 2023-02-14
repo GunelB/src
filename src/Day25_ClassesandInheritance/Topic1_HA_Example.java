@@ -29,6 +29,8 @@ public class Topic1_HA_Example {
         SecondStudent.AddHomeworkResult(80);
         SecondStudent.AddHomeworkResult(2);
 
+        System.out.println(FirstStudent.Name+" "+FirstStudent.GetMean());
+        System.out.println(SecondStudent.Name+" "+SecondStudent.GetMean());
         if (FirstStudent.GetMean() >= 70){
             System.out.println(FirstStudent.Name+" Passed!");
         } else {
