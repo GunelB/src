@@ -1,6 +1,8 @@
-package Day26_InheritancePolyMorphism;
+package Day26_InheritanceandPolyMorphism;
 
-public class GB_Square extends GB_Rectangle{
+import Day26_InheritanceandPolyMorphism.GB_Rectangle;
+
+public class GB_Square extends GB_Rectangle {
 
         /**
          * This is constructor for square

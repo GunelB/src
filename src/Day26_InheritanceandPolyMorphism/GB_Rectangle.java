@@ -1,4 +1,4 @@
-package Day26_InheritancePolyMorphism;
+package Day26_InheritanceandPolyMorphism;
 
 public class GB_Rectangle {
     // Encapsulation - public private protected default

@@ -29,9 +29,7 @@ public class Random_1 {
 
 
 
-        }
 
-    }
 
 
 
