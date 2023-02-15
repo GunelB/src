@@ -7,7 +7,22 @@ public class Random_1 {
        // for (int i =Input.length()-1; i>=0; i--) {
        //     Reverse=Reverse+Input.charAt(i);
         //    System.out.println(Reverse);
+//package KodSozluk;
 
+     //   public class KodSozluk {
+
+        //    public static void main(String[]args){
+
+          //      String s = "5";
+
+                //	int tamsayi = s; eğer böyle yaparsa hata alırız. String Integer eşitlenemez.
+
+           //     int tamsayi = Integer.parseInt(s);  // String değeri Integer tipine dönüştürüp eşitledik.
+
+             //   System.out.println(tamsayi);
+
+            }
+        }
 
 
 
