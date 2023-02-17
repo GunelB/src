@@ -17,6 +17,9 @@ public class Topic1_HA_Interface {
         MySecondDolphin.Swim();
 
 
+        Penguin HappyFeet = new Penguin();
+        HappyFeet.Swim();
+        HappyFeet.Walk();
 
 
 
