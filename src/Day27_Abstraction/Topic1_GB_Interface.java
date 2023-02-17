@@ -8,23 +8,23 @@ public class Topic1_GB_Interface {
 
     }
 }
-interface AquaticAnimals{
+interface AquaticAnimals_GB{
     void Swim();
 }
  //Animals living on the land
 interface TerrestrialAnimals{
     void Walk();
 }
-class Cat implements TerrestrialAnimals{
+class Cat_GB implements TerrestrialAnimals{
     @Override
     public void Walk() {
         System.out.println("Cat's walking");
     }
 }
-interface FarmAnimals extends TerrestrialAnimals{
+interface FarmAnimals_GB extends TerrestrialAnimals{
 
 }
-class Dolphin implements AquaticAnimals {
+class Dolphin_GB implements AquaticAnimals {
     @Override
     public void Swim() {
         System.out.println("Dolphin is swimming");
@@ -33,7 +33,7 @@ class Dolphin implements AquaticAnimals {
         }
 }
 
-class Lion extends Cat{
+class Lion_GB extends Cat{
     @Override
     public void Walk() {
         super.Walk();
