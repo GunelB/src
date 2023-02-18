@@ -9,7 +9,7 @@ public class Topic3_GB_PolyMorphism {
         HourlyStaff_GB Staff2 = new HourlyStaff_GB();
         Staff2.HoursWorked = 20;
         Staff2.PayRate = 40;
-        GB_SalaryClass Staff3
+        GB_SalaryClass Staff3;
 
 
     }
