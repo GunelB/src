@@ -1,4 +1,4 @@
-package Day28_Exception;
+package Day28_Exceptions;
 
 public class Topic1_GB_ExceptionIntro {
     public static void main(String[] args) {
