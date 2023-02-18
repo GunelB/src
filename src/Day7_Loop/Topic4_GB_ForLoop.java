@@ -1,6 +1,6 @@
 package Day7_Loop;
 
-public class Topic4_GB_string {
+public class Topic4_GB_ForLoop {
 
     public static void main(String[] args) {
         System.out.println("Hello");

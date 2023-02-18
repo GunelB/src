@@ -14,7 +14,7 @@ public class Topic6_GB_CatchOrder {
             System.out.println("Enter index");
             int index = scan.nextInt();
             System.out.println(MyArray[index]);
-        } catch (RuntimeException) {
+       // } catch (RuntimeException) {
 
         } catch (ArithmeticException MyException) {
             System.out.println("Can t div zero");
