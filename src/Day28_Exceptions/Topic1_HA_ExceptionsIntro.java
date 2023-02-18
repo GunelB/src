@@ -8,7 +8,7 @@ public class Topic1_HA_ExceptionsIntro {
             // add your code between try block
             int AValue = 50/0;
         } catch (Exception e){
-            System.out.println("There was a problem in line 8");
+            System.out.println("There was a problem in line 9");
         }
 
 
