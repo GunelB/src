@@ -1,4 +1,4 @@
-package Day7_Loop;
+package Day7_ForLoop;
 
 public class Topic4_GB_ForLoop {
 

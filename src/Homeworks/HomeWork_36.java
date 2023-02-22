@@ -2,13 +2,12 @@ package Homeworks;
 
 public class HomeWork_36 {
     public static void main(String[] args) {
-     boolean IsSmiling= false;
-    boolean MonkeyA =  false;
-    boolean MonkeyB = false;
- //   MonkeyClass TroubleMaker =  new
+        MonkeyClass m = new MonkeyClass();
+        System.out.println(m.monkeyTrouble(true,true));
+        System.out.println(m.monkeyTrouble(false,false));
+        System.out.println(m.monkeyTrouble(true,false));
+        System.out.println(m.monkeyTrouble(false,true));
 
-
-     //   System.out.println(monkey);
 }
  //   We have two monkeys,   MonkeyA   and MonkeyB.
  //   We are in trouble if they are both smiling or if neither of them is smiling.

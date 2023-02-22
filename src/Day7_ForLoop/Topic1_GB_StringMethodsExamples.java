@@ -1,4 +1,4 @@
-package Day7_Loop;
+package Day7_ForLoop;
 
 public class Topic1_GB_StringMethodsExamples {
     public static void main(String[] args) {

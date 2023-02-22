@@ -1,4 +1,4 @@
-package Day7_Loop;
+package Day7_ForLoop;
 
 import java.util.Scanner;
 

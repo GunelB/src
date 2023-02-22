@@ -1,26 +1,20 @@
 package Homeworks;
 
 class MonkeyClass {
-    boolean IsSmiling =false;
+    boolean IsSmiling ;
     String name1;
     String name2;
-    public MonkeyClass (String MonkeyA,String MonkeyB){
-      name1= MonkeyA;
-      name2 =MonkeyB;
+    public MonkeyClass (){
     }
+    public boolean monkeyTrouble(boolean p_Monkey1,boolean p_Monkey2) {
 
-    //  Please create a Class named MonkeyClass. It will have a boolean Field called IsSmiling.
-// Please create 2 instance of MonkeyClass and name them MonkeyA and MonkeyB.
+        if (p_Monkey1 == p_Monkey2) {
+            return IsSmiling= true;
 
-    public boolean monkeyTrouble(boolean Monkey1,boolean Monkey2) {
-
-        if ((Monkey1 == Monkey2 || !Monkey2) == Monkey1) {
-            boolean IsSmiling = false;
-            return false;
-        } else if ((Monkey2 == Monkey1 && Monkey1) ==Monkey2) {
-
+        } else {
+              return IsSmiling=false;
         }
-        return IsSmiling;
+
     }
 
     }
