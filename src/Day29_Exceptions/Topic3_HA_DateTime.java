@@ -14,6 +14,8 @@ public class Topic3_HA_DateTime {
         LocalDate MyLastDay = LocalDate.of(2023,3,10);
         System.out.println("My last day will be "+MyLastDay);
 
+        System.out.println("MyLastDay.getDayOfWeek() = " + MyLastDay.getDayOfWeek());
+
         // LocalDate MyDate = LocalDate.of(2014, 2, 29);
         //above lines will throw an exception because we don't have such a date.
 
