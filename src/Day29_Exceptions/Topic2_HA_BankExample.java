@@ -1,5 +1,7 @@
 package Day29_Exceptions;
 
+import java.sql.SQLException;
+
 public class Topic2_HA_BankExample {
     public static void main(String[] args) {
         //DataType VariableName = new Constructor(parameters defined in constructor)
@@ -23,6 +25,10 @@ public class Topic2_HA_BankExample {
         }catch (InsufficentException e){
             System.out.println(e.Message);
         }
+
+//        throw new ArrayIndexOutOfBoundsException();
+//        throw new SQLException();
+
     }
 }
 
@@ -51,7 +57,6 @@ class BankAccount {
             try
             catch
             finally
-
             throw
             throws
              */
