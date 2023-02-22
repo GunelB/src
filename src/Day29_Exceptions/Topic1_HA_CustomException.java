@@ -7,6 +7,12 @@ public class Topic1_HA_CustomException {
         }catch (NotEligibleToVoteException e){
             System.out.println(e.Message);
         }
+
+        try {
+            ValidateAge(21);
+        }catch (NotEligibleToVoteException e){
+            System.out.println("There is an error");
+        }
     }
 
     /*
@@ -17,7 +23,7 @@ public class Topic1_HA_CustomException {
     throw
     throws
      */
-
+// what is difference between throw and throws?
     public static void ValidateAge(int p_Age) throws NotEligibleToVoteException {
         if (p_Age < 18){
             throw new NotEligibleToVoteException("You can not vote!");
