@@ -34,6 +34,5 @@ public class Topic2_HA_ArrayListRandomAccess {
         MyArrayList.get(0);
         MyArrayList.get(8);
 
-
     }
 }
