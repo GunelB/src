@@ -18,7 +18,7 @@ public class Topic3_HA_LinkedList {
         What is the difference between LinkedList and ArrayList;
 
         LinkedList
-        1- Implements List, DeQueue and Queue interfaces
+        1- Implements List, Deque and Queue interfaces
         2- Stores 3 values (Previous Address, data, next address) in a single position
         3- Provides the doubly-linked list implementation.
         4- Whenever an element is added, prev and next address are changed.
@@ -33,6 +33,40 @@ public class Topic3_HA_LinkedList {
 
         Use Arraylist for storing and accessing data, Linkedlist to manipulate data.
          */
+
+        // Queue Interface methods
+        /*
+        addFirst()	adds the specified element at the beginning of the linked list
+        addLast()	adds the specified element at the end of the linked list
+        Same as above -> add(yourarraylist.size(), "MyValue");
+        getFirst()	returns the first element
+        getLast()	returns the last element
+        removeFirst()	removes the first element
+        removeLast()	removes the last element
+        peek()	returns the first element (head) of the linked list
+        poll()	returns and removes the first element from the linked list
+        offer()	adds the specified element at the end of the linked list
+         */
+
+//        MyZoo.add(0, "Element");
+//        MyZoo.addFirst("Element");
+//
+//        MyZoo.add(MyZoo.size(),  "Element");
+//        MyZoo.addLast("Element");
+
+        String HeadElement = MyZoo.peek();
+        System.out.println("HeadElement = " + HeadElement);
+
+        System.out.println("*************************");
+
+        String PollElement = MyZoo.poll();
+        System.out.println("PollElement = " + PollElement);
+        System.out.println(MyZoo);
+
+        MyZoo.offer("Monkey");
+        System.out.println(MyZoo);
+
+
 
     }
 }
