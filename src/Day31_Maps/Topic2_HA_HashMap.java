@@ -53,7 +53,8 @@ public class Topic2_HA_HashMap {
 
         System.out.println(MyHashMap);
 
-
+        MyHashMap.clear();
+        System.out.println(MyHashMap);
         /*
         put(Key, Value) - Inserts the association of a key and a value into the map.
         If the key is already present, the new value replaces the old value.
