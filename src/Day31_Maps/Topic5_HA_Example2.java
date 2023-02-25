@@ -10,11 +10,13 @@ public class Topic5_HA_Example2 {
 
         if the key "ice cream" is present, set its value to "cherry".
         In all cases, set the key "bread" to have the value "butter".
+
         topping1({"ice cream": "peanuts"}) → {"bread": "butter", "ice cream": "cherry"}
         topping1({}) → {"bread": "butter"}
         topping1({"pancake": "syrup"}) → {"bread": "butter", "pancake": "syrup"}
          */
 
+        //https://codingbat.com/java/Map-1
         HashMap<String, String> MyMap = new HashMap<>();
         //{"ice cream": "peanuts"}
         MyMap.put("ice cream", "peanuts");
