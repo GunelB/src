@@ -37,7 +37,7 @@ wordLen(["I", "love", "Canada"]) → {"I": 1, "love": 4, "Canada": 6 }
     }
     public static HashMap<String, Integer> wordLen(ArrayList<String> p_MyList){
         HashMap<String, Integer> ReturnMap = new HashMap<>();
-
+//["I", "love", "Canada"]
         for (String Word : p_MyList){
             ReturnMap.put(Word, Word.length());
         }
