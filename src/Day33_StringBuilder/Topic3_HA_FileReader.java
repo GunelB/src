@@ -25,6 +25,7 @@ public class Topic3_HA_FileReader {
             }
              */
 
+            // Below code is exactly same with above code.
             int ch;
             while ((ch = MyReader.read()) != -1 ){
                 System.out.print((char)ch);
