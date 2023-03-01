@@ -14,7 +14,7 @@ public class Topic3_HA_FileReader {
          */
 
         try {
-            FileReader MyReader = new FileReader("test.txt");
+            FileReader MyReader = new FileReader("test_HA.txt");
 
             /*
             int ch = MyReader.read();
