@@ -9,11 +9,14 @@ import java.io.IOException;
 public class Topic1_HA_BufferedReader {
 
     public static void main(String[] args) throws FileNotFoundException, IOException {
-            FileReader FR = new FileReader("test_HA.txt");
-            BufferedReader MyReader = new BufferedReader(FR);
+        //DataType VariableName = new DataType();  <- when you didn't know what is constructor
+        //DataType VariableName = new Constructor(); <-
+        FileReader FR = new FileReader("test_HA.txt");
+
+        BufferedReader MyReader = new BufferedReader(FR);
 
 
-            String line = MyReader.readLine();
+        String line = MyReader.readLine();
         System.out.println("line = " + line);
         System.out.println("****************");
         int i = 1;
