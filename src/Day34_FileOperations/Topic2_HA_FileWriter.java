@@ -11,6 +11,7 @@ public class Topic2_HA_FileWriter {
             FileWriter FW = new FileWriter("NewFile_HA3.txt");
             FW.write("Hello, this is my first line.");
             FW.write(13); // 13 means Return key (ENTER KEY)
+//            FW.write("\n");  <- this line will also add a new line
             FW.write("Hi Again!");
 
             FW.close();
