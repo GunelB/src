@@ -31,6 +31,7 @@ public class Topic3_HA_Example {
                 int Position1 = SB.indexOf("(");
                 String Name = SB.substring(0, Position1).trim();
 
+
                 System.out.println(Name);
                 //line = The Shawshank Redemption (1994)
                 SB.delete(0, Position1+1);
