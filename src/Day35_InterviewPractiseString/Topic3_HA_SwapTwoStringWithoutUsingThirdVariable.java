@@ -23,12 +23,13 @@ public class Topic3_HA_SwapTwoStringWithoutUsingThirdVariable {
         // b = Renastech          Length = 9
 
         // b= Hello
-
+//        a.substring(0,5)
         b = a.substring(0, a.length() - b.length() );
 
         // a = HelloRenastech   Length = 14
         // b = Hello            Length = 5
 
+//        a.substring(5)
         a = a.substring(b.length());
         // a = Renastech
         // b = Hello
