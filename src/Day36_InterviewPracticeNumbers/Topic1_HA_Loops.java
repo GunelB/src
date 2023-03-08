@@ -22,6 +22,16 @@ public class Topic1_HA_Loops {
             i++;
         }
 
+        /*
+        i = 100;
+        do {
+            System.out.println("Anything");
+        }while (i<Words.length);
+
+        // Repeat - until
+
+         */
+
 
 
     }
