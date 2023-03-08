@@ -29,7 +29,7 @@ public class Topic2_HA_CompressString {
 
         //I need to get each char
         // I can use String.charAt or I can use String.toCharArray
-
+        //AAABBBBCCDDDAAB
         char[] MyCharArray = p_Letters.toCharArray();
 
         //A A A B B B B C C D D D A A B
