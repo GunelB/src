@@ -31,6 +31,7 @@ public class Topic6_HA_BestTimeToBuyStock {
 
         int BuyingPrice = data[0];
         int Profit = 0;
+        int SellingPrice = 0;
         for (int i = 1; i < data.length; i++) {
             // if we find the lowest value to buy, assign buying price to it
             if (BuyingPrice > data[i]){
@@ -43,11 +44,13 @@ public class Topic6_HA_BestTimeToBuyStock {
 
                 if (NewProfit > Profit){
                     Profit = NewProfit;
+                    SellingPrice = data[i];
                 }
             }
         }
 
         System.out.println("Buying Price = "+BuyingPrice);
+        System.out.println("Selling Price = "+SellingPrice);
         System.out.println("Profit = "+Profit);
 
     }
