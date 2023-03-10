@@ -217,6 +217,10 @@ interface F extends D, E{
 
 }
 
+class G implements E{
+
+}
+
 class A {
 
     public A(){
@@ -251,3 +255,36 @@ class B extends A{
         super.MyMethod(b);
     }
 }
+
+/*
+Today's Real Interview Questions
+
+OOP concept
+method overriding
+method overloading
+static methods
+static keyword
+what is constructor
+can we override static methods
+
+class Parent{
+    static void display(){
+        System.out.println("Hi There");
+    }
+}
+
+public class Example extends Parent{
+    void display(){
+        System.out.println("Hello");
+    }
+
+    public static void main(String[] args) {
+        Parent obj = new Example();
+        obj.display();
+    }
+}
+
+Reverse String
+https://www.mycompiler.io/new/java
+
+ */
