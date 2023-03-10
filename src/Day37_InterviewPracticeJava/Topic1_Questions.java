@@ -194,8 +194,8 @@ No, an interface can’t extend a class. But it can extend another interface.
 
 
 class extends class
-interface extends interface
-class implements interface
+interface extends interfaces
+class implements interfaces
 
 interface can extend multiple interfaces
 
