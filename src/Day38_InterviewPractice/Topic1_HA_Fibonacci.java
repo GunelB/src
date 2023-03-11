@@ -20,7 +20,7 @@ public class Topic1_HA_Fibonacci {
         //      3 + 5 = 8
 
 
-        int HowMany = 20;    //  0 1 1 2 3 5 8
+        int HowMany = 7;    //  0 1 1 2 3 5 8
 
         int a = 0;
         int b = 1;
